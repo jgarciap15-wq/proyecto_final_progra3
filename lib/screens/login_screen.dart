@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
     } else {
 
       setState(() {
-        mensaje = "Usuario o contraseña incorrectos ❌";
+        mensaje = "Usuario o contraseña incorrectos";
       });
 
     }
