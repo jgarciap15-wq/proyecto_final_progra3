@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
     String usuario = usuarioController.text;
     String password = passwordController.text;
 
-    if (usuario == "admin" && password == "1234") {
+    if (usuario == "jgarcia" && password == "1234") {
 
       Navigator.push(
         context,
