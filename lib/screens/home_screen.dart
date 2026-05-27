@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final ApiService apiService = ApiService();
 
-  // Controlador buscador
+  // Este es el controlador del buscador
   final TextEditingController searchController =
   TextEditingController();
 
