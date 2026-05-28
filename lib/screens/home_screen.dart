@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {});
   }
 
-  // ================= BUSCAR =================
+  // este es el método que se llama cada vez que el usuario escribe en el buscador
 
   void buscarTareas(String texto) {
 
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         children: [
 
-          // ================= BIENVENIDA =================
+          // bienvenida al usuario
 
           Container(
             width: double.infinity,
